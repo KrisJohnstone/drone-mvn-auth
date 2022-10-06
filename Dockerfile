@@ -1,4 +1,4 @@
-FROM node:10-alpine
+FROM node:16-alpine
 
 WORKDIR /plugin
 
@@ -8,4 +8,4 @@ ENV NODE_ENV production
 
 RUN npm ci
 
-ENTRYPOINT node /plugin/index.js
+CMD ["node:", "/plugin/index.js"]

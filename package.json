@@ -14,14 +14,20 @@
   },
   "author": "Robert Stettner <robert.stettner@gmail.com> (https://github.com/robertstettner)",
   "license": "MIT",
-  "devDependencies": {
-    "coveralls": "^3.0.4",
-    "eslint": "6.0.1",
-    "mocha": "^6.1.4",
-    "nyc": "^14.1.1",
-    "rewire": "4.0.1",
+  "dependencies": {
+    "anylogger": "^1.0.11",
+    "coveralls": "^3.1.1",
+    "mocha": "^10.0.0",
+    "nyc": "^15.1.0",
+    "rewire": "6.0.0",
     "should": "13.2.3",
     "should-sinon": "0.0.6",
-    "sinon": "7.3.2"
+    "sinon": "14.0.1",
+    "ulog": "^2.0.0-beta.19"
+  },
+  "devDependencies": {
+    "eslint": "^8.24.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0"
   }
 }
